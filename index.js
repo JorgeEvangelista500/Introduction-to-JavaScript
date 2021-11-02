@@ -19,6 +19,12 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 18
+ if (votingAge >= 18){
+   console.log(true)
+ }
+   
+
 
 
 /*
@@ -31,8 +37,13 @@ Do the following:
 
    HINT: no function required
 */
+let n = 5;
+let y = 6;
 
-
+if (y === 6){
+  n = 10
+  console.log(n)
+}
 
 
 /*
@@ -46,8 +57,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+let x = "1999";
 
-
+parseInt(x)
+console.log(x)
 
 /*
 Task 1d - Multiply
@@ -151,7 +164,7 @@ if (computer === 1){
   computer = 'rock'
 }else if (computer === 2 ){
   computer = "scissors"
-}else if (computer ===3 ){
+}else if (computer === 3 ){
   computer = 'paper'
 }
 
