@@ -21,7 +21,6 @@ Do the following:
 */
 
 
-
 /*
 Task 1b - Values
 
@@ -32,7 +31,6 @@ Do the following:
 
    HINT: no function required
 */
-
 
 
 
@@ -60,8 +58,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(num1, num2){
+  return (num1 * num2)
 }
 
 
@@ -76,8 +74,8 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7
 }
 
 
@@ -166,8 +164,8 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(num1){
+  return (num1 * 0.621371);
 }
 
 
@@ -180,8 +178,8 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(num1){
+    return (num1 / 30.48);
 }
 
 
@@ -216,8 +214,18 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(score){
+  if (score <= 100 && score >=90){
+  return 'you got an A'
+} else if (score <= 89 && score >=80 ){
+  return 'you got a B'
+} else if (score <= 79 && score >=70){
+  return 'you got a C'
+} else if (score <= 69 && score >=60){
+  return 'you got a D'
+} else if (score < 60){
+  return 'you got an F'
+}
 }
 
 
